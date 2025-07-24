@@ -1,0 +1,16 @@
+/* Grundlegendes, modernes Reset und Layout */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #f4f6fb;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #222;
+}
+
+* {
+  box-sizing: border-box;
+}

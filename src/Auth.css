@@ -1,0 +1,92 @@
+.auth-container {
+  max-width: 380px;
+  margin: 60px auto;
+  padding: 32px 24px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.auth-container h2 {
+  margin-bottom: 24px;
+  color: #333;
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-container input {
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.auth-container .admin-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  color: #555;
+}
+
+.auth-container button {
+  padding: 12px;
+  background: #4f8cff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.auth-container button:disabled {
+  background: #b6c6e3;
+  cursor: not-allowed;
+}
+
+.auth-container button:hover:not(:disabled) {
+  background: #2563eb;
+}
+
+.auth-container .error-message {
+  color: #ef4444;
+  margin-top: 12px;
+}
+
+.auth-container .toggle-view {
+  margin-top: 16px;
+  color: #555;
+}
+
+.auth-container .toggle-view span {
+  color: #4f8cff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.header-user-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logout-button {
+  background: #e9ecf5;
+  color: #333;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.logout-button:hover {
+  background: #d1d5db;
+}
